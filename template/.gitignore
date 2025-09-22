@@ -1,0 +1,104 @@
+# Python bytecode and cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.pyc
+
+# Python build artifacts
+*.spec
+*.egg
+*.egg-info/
+build/
+**/dist/
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Testing artifacts (Pytest, Coverage, Tox)
+**/.pytest_cache/
+**/.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+log/
+logs/
+htmlcov/
+
+# Ruff, Mypy, and other static analysis tools
+.mypy_cache/
+.dmypy.json
+.ruff_cache/
+.pyre/
+
+# Pip and Poetry caches
+.cache/
+
+# Jupyter Notebook temporary files
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Data
+data/
+
+# Development work
+dev/
+experiments/
+dev.py
+dev.ipynb
+TODO.md
+NOTES.md
+
+# GitHub Pages output and static site generators (e.g., pdoc)
+public/
+site/
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler and Ruby artifacts (used with Jekyll sometimes)
+.bundle/
+vendor/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# VS Code files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Vim files
+.netrwhist
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]*.un~
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Temporary files and backups
+*~
+*.swp
+*.bak
+*.tmp
+tmp/
+temp/
+
+# Environment files
+**/*.env
+**/*.env.*
+!env.example
