@@ -1,55 +1,8 @@
-# Python bytecode and cache files
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.so
-*.pyc
-
-# Python build artifacts
-*.spec
-*.egg
-*.egg-info/
-build/
-**/dist/
-
-# C extensions
-*.so
-
 # Virtual environments
 .venv/
-venv/
-ENV/
-env/
 
-# Testing artifacts (Pytest, Coverage, Tox)
-**/.pytest_cache/
-**/.coverage
-.tox/
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-log/
-logs/
-htmlcov/
-
-# Ruff, Mypy, and other static analysis tools
-.mypy_cache/
-.dmypy.json
-.ruff_cache/
-.pyre/
-
-# Pip and Poetry caches
-.cache/
-
-# Jupyter Notebook temporary files
-.ipynb_checkpoints/
-*.nbconvert.ipynb
-
-# Development or scratch data
+# Development work
 dev/
-data/
 experiments/
 dev.py
 dev.ipynb
