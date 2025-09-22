@@ -1,0 +1,15 @@
+[project]
+name = "production-python-template"
+version = "0.1.0"
+description = "Python project template that follows proven patterns. Scaffolds libraries, CLIs, and web services."
+requires-python = ">=3.9,<3.14"
+dependencies = [
+  "copier~=9.10",
+]
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1.405",
+    "pytest>=8.4.2",
+    "ruff>=0.13.1",
+]
