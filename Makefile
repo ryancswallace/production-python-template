@@ -1,7 +1,17 @@
-#
-# production-python-template
-# Usage: See `make help`
-#
+#doc#
+#doc# production-python-template - Makefile
+#doc#
+#doc# Purpose: Automate common development tasks, including managing the project's virtual environment, running tests,
+#doc# and doing autoformatting.
+#doc#
+#doc# Usage: run `make <target>` (common targets: setup, test, fmt, clean, help).
+#doc#
+#doc# Notes:
+#doc#   - This Makefile uses the `uv` CLI (configurable via UV env var). See https://docs.astral.sh/uv/.
+#doc#   - A project virtualenv is created in .venv by default (UV_PROJECT_ENVIRONMENT).
+#doc#   - The `help` target prints any Makefile lines prefixed with `#doc# `; avoid leading underscores for visible
+#doc#     targets.
+#doc#
 
 # --- Make configurations
 SHELL := bash
@@ -20,7 +30,7 @@ export UV_PROJECT_ENVIRONMENT ?= .venv
 # --- Helper targets
 
 help:    #doc# Show this help
-	@sed -ne '/@sed/!s/#doc# //p' $(MAKEFILE_LIST) | grep -v '^_'
+	@sed -ne '/@sed/!s/#doc#//p' $(MAKEFILE_LIST) | grep -v '^_'
 
 .PHONY: _check-uv
 _check-uv: #doc# Verify uv is installed
