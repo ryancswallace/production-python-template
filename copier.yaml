@@ -1,0 +1,38 @@
+### Root Copier configuration file.
+# See https://copier.readthedocs.io/en/v9.10.0/configuring/
+
+# Global copier settings
+---
+!include copier/settings/base.yml
+---
+!include copier/settings/files.yml
+---
+!include copier/settings/tasks.yml
+---
+!include copier/settings/migrations.yml
+---
+!include copier/settings/messages.yml
+
+# Definitions of choices/defaults shared across templates
+---
+!include copier/shared/choices.yml
+
+# Questions asked to the user (in order)
+---
+!include copier/questions/core.yml
+---
+!include copier/questions/shape.yml
+---
+!include copier/questions/python.yml
+---
+!include copier/questions/tooling.yml
+---
+!include copier/questions/cli.yml
+---
+!include copier/questions/service.yml
+---
+!include copier/questions/docs.yml
+---
+!include copier/questions/ci.yml
+---
+!include copier/questions/security.yml

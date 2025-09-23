@@ -1,0 +1,51 @@
+### User-facing messages shown before/after copy and update
+
+_message_before_copy: |
+  Ready to scaffold your new project with production-python-template!
+
+  Steps:
+    → answer questions about your project
+    → we'll scaffold your project
+    → (optional) we'll run setup tasks
+
+  ℹ️  Abort anytime with Ctrl+C
+
+  ⚡ production-python-template ⚡
+
+_message_after_copy: |
+  ✅  Scaffold complete.
+
+  If you skipped the setup tasks, see "next steps" in the docs for suggested project setup.
+
+  Thanks for using production-python-template. Have fun building! 🎉
+
+  Quick links
+    repo: https://github.com/ryancswallace/production-python-template
+    docs: https://ryancswallace.github.io/production-python-template/
+
+  ⚡ production-python-template ⚡
+
+_message_before_update: |
+  Ready to update your existing project with production-python-template!
+
+  Steps:
+    → we'll apply template changes and run any defined migrations
+    → you may be asked to resolve conflicts if both you and the template changed the same lines
+
+  ℹ️ Abort anytime with Ctrl+C
+
+  ⚡ production-python-template ⚡
+
+_message_after_update: |
+  ✅  Update complete.
+
+  Next steps:
+    → review the diff and resolve any inline conflicts
+    → re-run any quality checks (e.g., `make test`)
+    → commit your changes when satisfied
+
+  Quick links
+    repo: https://github.com/ryancswallace/production-python-template
+    docs: https://ryancswallace.github.io/production-python-template/
+
+  ⚡ production-python-template ⚡
