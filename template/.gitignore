@@ -40,7 +40,7 @@ htmlcov/
 .ruff_cache/
 .pyre/
 
-# Pip and Poetry caches
+# Install caches
 .cache/
 
 # Jupyter Notebook temporary files
