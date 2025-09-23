@@ -15,7 +15,7 @@ _tasks:
 
   # Optional extra setup tasks
   - command: "make setup"
-    when: "{{ run_setup_tasks | default(true) }}"
+    when: "{{ _copier_operation == 'copy' and _copier_conf.os in ['linux','macos'] and run_setup_tasks | default(true) }}"
 
   - command: "pre-commit install"
-    when: "{{ run_setup_tasks | default(true) }}"
+    when: "{{ _copier_operation == 'copy' and _copier_conf.os in ['linux','macos'] and run_setup_tasks | default(true) }}"
