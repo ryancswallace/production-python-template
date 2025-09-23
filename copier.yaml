@@ -3,36 +3,36 @@
 
 # Global copier settings
 ---
-!include copier/settings/base.yml
+!include copier/settings/base.yaml
 ---
-!include copier/settings/files.yml
+!include copier/settings/files.yaml
 ---
-!include copier/settings/tasks.yml
+!include copier/settings/tasks.yaml
 ---
-!include copier/settings/migrations.yml
+!include copier/settings/migrations.yaml
 ---
-!include copier/settings/messages.yml
+!include copier/settings/messages.yaml
 
 # Definitions of choices/defaults shared across templates
 ---
-!include copier/shared/choices.yml
+!include copier/shared/choices.yaml
 
 # Questions asked to the user (in order)
 ---
-!include copier/questions/core.yml
+!include copier/questions/core.yaml
 ---
-!include copier/questions/shape.yml
+!include copier/questions/shape.yaml
 ---
-!include copier/questions/python.yml
+!include copier/questions/python.yaml
 ---
-!include copier/questions/tooling.yml
+!include copier/questions/tooling.yaml
 ---
-!include copier/questions/cli.yml
+!include copier/questions/cli.yaml
 ---
-!include copier/questions/service.yml
+!include copier/questions/service.yaml
 ---
-!include copier/questions/docs.yml
+!include copier/questions/docs.yaml
 ---
-!include copier/questions/ci.yml
+!include copier/questions/ci.yaml
 ---
-!include copier/questions/security.yml
+!include copier/questions/security.yaml
