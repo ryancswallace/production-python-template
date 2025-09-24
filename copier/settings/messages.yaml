@@ -1,7 +1,8 @@
 ### User-facing messages shown before/after copy and update
 
 _message_before_copy: |
-  Ready to scaffold your new project with production-python-template!
+
+  Scaffolding your new project with production-python-template!
 
   Steps:
     → Answer questions about your project
@@ -11,6 +12,7 @@ _message_before_copy: |
   👉 Abort anytime with Ctrl+C
 
 _message_after_copy: |
+
   ✅  Scaffold complete.
 
   If you skipped the setup tasks, see "next steps" in the docs for suggested project setup.
@@ -22,7 +24,8 @@ _message_after_copy: |
   Thanks for using ✨ production-python-template ✨  Have fun building! 🎉
 
 _message_before_update: |
-  Ready to update your existing project with production-python-template!
+
+  Updating your existing project with production-python-template!
 
   Steps:
     → We'll apply template changes and run any defined migrations
@@ -31,6 +34,7 @@ _message_before_update: |
   👉 Abort anytime with Ctrl+C
 
 _message_after_update: |
+
   ✅  Update complete.
 
   Next steps:
