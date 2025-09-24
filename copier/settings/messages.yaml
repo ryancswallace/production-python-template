@@ -8,9 +8,9 @@ _message_before_copy: |
     → We'll scaffold your project
     → (optional) We'll run setup tasks
 
-  ℹ️  Abort anytime with Ctrl+C
+  👉  Abort anytime with Ctrl+C
 
-  ⚡ production-python-template ⚡
+  ✨  production-python-template  ✨
 
 _message_after_copy: |
   ✅  Scaffold complete.
