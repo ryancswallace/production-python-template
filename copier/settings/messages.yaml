@@ -10,20 +10,16 @@ _message_before_copy: |
 
   👉  Abort anytime with Ctrl+C
 
-  ✨  production-python-template  ✨
-
 _message_after_copy: |
   ✅  Scaffold complete.
 
   If you skipped the setup tasks, see "next steps" in the docs for suggested project setup.
 
-  Thanks for using production-python-template. Have fun building! 🎉
-
   Quick links
     repo: https://github.com/ryancswallace/production-python-template
     docs: https://ryancswallace.github.io/production-python-template/
 
-  ⚡ production-python-template ⚡
+  Thanks for using ✨ production-python-template ✨  Have fun building! 🎉
 
 _message_before_update: |
   Ready to update your existing project with production-python-template!
@@ -32,9 +28,7 @@ _message_before_update: |
     → We'll apply template changes and run any defined migrations
     → You may be asked to resolve conflicts if both you and the template changed the same lines
 
-  ℹ️ Abort anytime with Ctrl+C
-
-  ⚡ production-python-template ⚡
+  👉  Abort anytime with Ctrl+C
 
 _message_after_update: |
   ✅  Update complete.
@@ -48,4 +42,4 @@ _message_after_update: |
     repo: https://github.com/ryancswallace/production-python-template
     docs: https://ryancswallace.github.io/production-python-template/
 
-  ⚡ production-python-template ⚡
+  Thanks for using ✨ production-python-template ✨  Have fun building! 🎉
