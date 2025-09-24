@@ -46,3 +46,5 @@
     * Releases
     * Packages
     * Deployments
+
+Warning/disclaimer that the template does not necessarily include everything required to build a project ready for production. Reminder to take care of security, reliability, etc.
