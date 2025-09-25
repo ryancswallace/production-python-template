@@ -2,7 +2,7 @@
 
 _message_before_copy: |
 
-  Scaffolding your new project with production-python-template!
+  Scaffolding your new project with\u001b[1m production-python-template\u001b[0m!
 
   Steps:
     → Answer questions about your project
@@ -21,11 +21,11 @@ _message_after_copy: |
     repo: https://github.com/ryancswallace/production-python-template
     docs: https://ryancswallace.github.io/production-python-template/
 
-  Thanks for using ✨ production-python-template ✨  Have fun building! 🎉
+  Thanks for using \u001b[1m✨ production-python-template ✨\u001b[0m  Have fun building! 🎉
 
 _message_before_update: |
 
-  Updating your existing project with production-python-template!
+  Updating your existing project with\u001b[1m production-python-template\u001b[0m!
 
   Steps:
     → We'll apply template changes and run any defined migrations
@@ -46,4 +46,4 @@ _message_after_update: |
     repo: https://github.com/ryancswallace/production-python-template
     docs: https://ryancswallace.github.io/production-python-template/
 
-  Thanks for using ✨ production-python-template ✨  Have fun building! 🎉
+  Thanks for using \u001b[1m✨ production-python-template ✨\u001b[0m  Have fun building! 🎉
